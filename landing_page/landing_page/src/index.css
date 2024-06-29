@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+  /* -webkit-font-smoothing: antialiased;  */
+  /* background-color: #f7f4ed; */
+
+}
+body{
+  overflow-x: hidden;
+}
+html{
+  scroll-snap-type:y mandatory;
+  scroll-behavior: smooth;
+}
+.container{
+  padding: 0px 90px;
+  /* width: 80%; */
+  /* margin: auto;
+  height: inherit; */
+  /* border: 2px solid black; */
+  
+}
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.848);
+  
+  
+  }
+ 
+
+
+/* CSS */
+
+
+/* CSS */
+.button-20 {
+  appearance: button;
+  background-color: #ff6a3b;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #ff6a3b;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  font-family: lato;
+}
+
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
+  outline: 0;
+}
+
+.button-20:hover {
+  background-color: #ef5425;
+  border-color: #ef5425;
+}
+d24920
+.button-20:focus {
+  background-color: #d24920;
+  border-color: #d3846b;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, #d3846b;
+}
+
+.button-20:active {
+  background-color: #d24920;
+  background-image: none;
+  border-color: #d3846b;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+
+.button-20:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}

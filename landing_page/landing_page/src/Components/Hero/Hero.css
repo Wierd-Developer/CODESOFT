@@ -1,0 +1,76 @@
+.hero-section{
+    padding-top: 35vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: lato;
+    margin-top: -60px;
+    line-height: 65px;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(270deg,rgba(0, 0, 0, .3), rgba(0, 0, 0.2)), url(https://assets-global.website-files.com/660d5429a4473c68763ee7e8/6618dc676f0d137d38f60739_jason-briscoe-VBsG1VOgLIU-unsplash.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    aspect-ratio: 3/2;
+    background-position: center;
+    
+}
+.hero-section h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.hero-section h1{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.hero-section .button-20{
+    margin-top: 40px;
+    width: 140px ;
+    height: 50px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.scroll-img{
+    margin-top: 35px;
+    animation: scrollmove 2.2s  infinite reverse;
+}
+.scroll-img img{
+    height: 7vh;
+}
+@keyframes scrollmove {
+    50%{
+        transform: translateY(-10px);
+        opacity: 0.05;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 0.7;
+    }
+    
+}
+/* media query */
+@media screen and (max-width:600px){
+    html{
+        font-size: 72%;
+    } 
+    .hero-section .button-20 {
+        font-size: 1.3rem; 
+    }
+    .hero-section h1,h6 { 
+        line-height: 55px!important;
+    }
+}
+@media screen and (max-width:450px){ 
+    html{
+        font-size: 55%;
+    }
+    .hero-section h1,h6,p{
+        line-height: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+.Navbar{
+    height: 80px;
+    // margin-top: 40px;
+    // border: 2px solid red;
+    position: fixed;
+    top:0%;
+    width: 100%;
+    z-index: 10;
+    background-color: #0c0c1d;
+    // opacity: 0.3;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    .wrapper{
+        display: flex;
+        max-width: 70%;
+        margin: 24px auto;
+        // border: 2px solid green;
+        justify-content: space-between;
+        align-items: center;
+        
+        .social{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: 2px solid white;
+            background-color: transparent !important;
+            gap: 40px;
+            
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.link-div {
+    
+    height: 20vh;
+    background: rgb(243, 239, 239);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .link-img img {
+    border-radius: 20px;
+    margin: 30px;
+    height: 12vh;
+    transition: 0.5s;
+  }
+  .link-img img:hover {
+    transform: scale(1.05);
+    background: rgb(236, 227, 227);
+  }
+  
+  .footer-div {
+    height: 40vh;
+    width: 100%;
+    padding: 0px 20vh;
+    display: grid;
+    flex-grow: 1;
+    grid-template-columns: 2fr 1fr;
+    background: linear-gradient(180deg, #6674cc 30%, #808bcfef);
+    
+  }
+  .footer-div > .services {
+    
+  }
+  .footer-div > .serve-id {
+    margin: 30px;
+   
+  }
+  .services {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    margin: 30px;
+   
+  }
+  .footer-logo {
+    margin: auto 20px;
+    
+  }
+  .footer-menu {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    line-height: 20px;
+    color: #fff;
+    /* border: 2px solid green; */
+  }
+  

@@ -1,0 +1,114 @@
+.footer{
+    height: auto;
+    background-color: #262322;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px ;
+    color: #fff;
+    font-family: lato;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+
+}
+.left-footer .logo{
+    height: 5vh;
+    width: 35vh;
+    
+}
+.left-footer{
+    width: 60%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+.left-footer img{
+    width: 30%;
+}
+.left-footer h4{
+    font-size: 0.9rem;
+}
+.left-footer span{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.left-footer p{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.right-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: auto;
+}
+.right-footer h3{
+    color: #ff6a3b;
+    filter: blur(saturate);
+    font-size: 1rem;
+    white-space: nowrap;
+}
+.right-footer h4{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.social-img{
+    margin-top: 10px;
+    }
+.social-img img{
+        width: 6%;
+        margin: 5px;
+        border-radius: 50%;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+
+}
+.social-img img:hover{
+    background-color: #ff6a3b;
+}
+@media screen and (max-width:1000px){
+    .social-img img{
+        width: 8%;
+        margin: 2px;
+        border-radius: 50%;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+
+}
+}
+@media screen and (max-width:700px){
+    .social-img img{
+        width: 14%;
+        margin: 2px;
+        border-radius: 50%;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .right-footer{
+        width: 60%;
+    }
+}
+@media screen and (max-width:400px) {
+    .left-footer h4{
+        font-size: 1.2em;
+    }
+    .left-footer span{
+        font-size: 1rem;
+    }
+    .left-footer p{
+        font-size: 1rem;
+    }
+    .left-footer img{
+        width: 19%;
+    }
+    .left-footer .logo{
+        width: 200px;
+        height: 4vh;
+
+    }
+}

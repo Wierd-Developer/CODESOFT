@@ -1,0 +1,12 @@
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    // border: 2px solid red;
+    .box{
+        width:200px;
+        height: 200px;
+        background-color: white;
+    }
+}

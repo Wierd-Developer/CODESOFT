@@ -1,0 +1,16 @@
+.Search-input {
+  background-color: white;
+  height: 38px;
+  // border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  form {
+    button {
+      border: none;
+      padding-left: 4px;
+      background-color: white;
+    }
+  }
+}

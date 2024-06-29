@@ -1,0 +1,144 @@
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f4ed;
+}
+.contact-container{
+    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    line-height: 55px;
+}
+.contact-container h2{
+    font-size: 1.8rem;
+    font-family: lato,sans-serif;
+    font-weight: 900;
+    color: #07472c;
+    letter-spacing: 1px;
+}
+.contact-container h1{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:#ff6a3b;
+    filter: saturate(2);
+    font-style: italic;
+    letter-spacing: 0.2px;
+    line-height: 35px;
+}
+.contact-container p{
+    font-size: 1rem;
+    font-family: lato!;
+    font-weight: 400;
+    opacity: 0.6;
+    letter-spacing: 0.6px;
+    
+
+}
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: lato;
+    column-gap: 20px;
+    line-height: 38px;
+    
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 25px auto;
+    justify-content: center;
+    text-align: left;
+    padding: 25px;
+    line-height: 35x;
+}
+input{
+    font-size: 0.8rem;
+    height: 6vh;
+    padding: 2px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.contact-details ::placeholder{
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    opacity: 0.5;
+    padding: 10px;
+}
+label{
+    font-family: lato;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.checkbox-input{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: lato;
+    opacity: 0.6;
+    font-size: 0.9rem;
+    letter-spacing: 0.8px;
+}
+.checkbox-input input {
+    width:14px;
+}
+@media screen and (max-width:1000px) {
+    .contact-container{
+        padding: 0px!important;
+    }
+}
+@media screen and (max-width:768px) {
+    .username{
+        display: flex;
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: flex-start;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .first-name input,.second-name input{
+        width: 500%;
+        outline: #07472c;
+      
+    }
+    .contact-container{
+        width: 100%;
+    }
+}
+@media  screen and (max-width:580px) {
+    .contact-container p{
+        font-size: 1.6rem;
+    } 
+    .contact-container h2{
+        font-size: 3rem;
+    }
+    .contact-container h1{
+        font-size: 3rem;
+    }
+    .contact-details{
+        width: 100%;
+        padding: 4px;
+    }
+    label{
+        font-size: 1.2rem;
+    }
+    .checkbox-input{
+        font-size: 1.2rem;
+        height: 10px;
+        margin-top: 15px;
+    }
+}

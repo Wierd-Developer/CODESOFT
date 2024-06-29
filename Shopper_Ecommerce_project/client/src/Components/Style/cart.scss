@@ -1,0 +1,35 @@
+.total-amount{
+    // border: 2px solid red;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 22vh;
+    // justify-content: space-evenly;
+    column-gap: 10px;
+    div{
+        height: 20vh;
+        // border: 2px solid green;
+        font-size: 18px;
+    }
+}
+.place-order{
+    // border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    button{
+        height: 40px;
+        padding: 9px;
+        margin: 10px;
+        border: none;
+        background-color: rgba(255, 166, 0, 0.722);
+        transition: 0.2s ease-in-out; ;
+        h6{
+            font-size: 16px;
+            font-weight: 400;
+        }
+        &:hover{
+            background-color: orange;
+        }
+    }
+}

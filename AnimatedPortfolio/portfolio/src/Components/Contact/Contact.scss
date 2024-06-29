@@ -1,0 +1,86 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    padding-top: 30vh;
+    .wrapper{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text-container{
+            flex: 1;
+            h1{
+                font-size: 3rem;
+                font-weight: 700;
+                line-height: 44px;
+                margin-bottom: 30px;
+            }
+            h4{
+                font-size: 1rem;
+                // line-height: 40px;
+            }
+            p{
+                font-size: 0.9rem;
+                margin-bottom: 10px;
+                // line-height: 40px;
+            }
+        }
+        .form-container{
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            padding: 10px;
+            // border: 2px solid red;
+            // display: flex;
+            // gap: 50px;
+            .svg-container{
+                margin: auto;
+                // height: 80vh;
+                // background-color: purple;
+                stroke: orange;
+                position: absolute;
+                z-index: -1;
+                // right: 0px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                
+                
+                input{
+                    background-color: transparent;
+                    width: 70%;
+                    height: 5vh;
+                    padding: 5px;
+                    border-radius: 5px;
+                    border: 1px solid gray;
+                    opacity: 0.6;
+                    color: white;
+                }
+                textarea{
+                    width: 70%;
+                    padding: 5px;
+                    border-radius: 5px;
+                    opacity: 0.6;
+                    background-color: transparent;
+                    color: white;
+
+
+                }
+                button{
+                    width: 70%;
+                    height: 5vh;
+                    background-color: orange;
+                    border-radius: 5px;
+                    border: none;
+                    font-family: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

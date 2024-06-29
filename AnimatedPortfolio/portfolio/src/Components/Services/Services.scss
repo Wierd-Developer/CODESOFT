@@ -1,0 +1,102 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  padding-top: 16vh;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  .side-text {
+    // flex: 1;
+    align-self: flex-end;
+    // border: 2px solid red;
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // margin-right: 10px;
+    width: 30%;
+    hr {
+      // height: 30%;
+      width: 32%;
+      margin: 12px;
+      border: none;
+      border-top: 0.5px solid gray;
+    }
+  }
+  .title {
+    // border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 40vh;
+    width: 60%;
+    margin-top: 20px;
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      // font-weight: 700;
+      letter-spacing: 1px;
+      height: inherit;
+      width: 100%;
+      // gap:10px;
+      // border: 2px solid red;
+      img {
+        position: relative;
+        top: -30px;
+        height: 12vh;
+        width: 25%;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+      div {
+        margin: 10px;
+      }
+      button {
+        // align-self:flex-end;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.729);
+        background: orange;
+        padding: 18px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 12vh;
+      }
+    }
+  }
+  .cards-container {
+    width: 70%;
+    margin: auto;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    overflow: hidden;
+    .card {
+      width: 200px;
+      // height: 20vh;
+      text-align: center;
+      border: 1px solid gray;
+      padding: 10px;
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      button {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+        padding: 5px;
+        background-color: orange;
+        border: none;
+        border-radius: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.Hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid red;
+    // margin-top: 40px;
+    // height: calc(100vh - 100px);
+    position: relative;
+    top: 24vh;
+    // z-index: 1;
+    overflow: hidden;
+   .wrapper{
+    width: 70%;
+    margin: auto;
+    height: 80vh;
+    // border: 2px solid red;
+    
+    .Text-container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 30px;
+        // border: 2px solid red;
+        h2{
+            font-size: 22px;
+            color: rgb(97, 23, 167);
+            font-family: sans-serif;
+            font-weight: 600;
+            letter-spacing: 5px;
+        }
+        p{
+            color: #fff;
+            font-size: 40px;
+            font-weight: 700;
+
+        }
+        #scrollpng{
+            height: 42px;
+            width: 42px;
+        }
+        .text-button{
+            display: flex;
+            gap: 20px;
+            // transition: 3s ease-in ;
+            .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+                // height: 30px;
+                padding: 14px;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 400;
+                border-radius: 10px;
+                border: 1px solid #fff;
+                background-color: transparent;
+                color: white;
+                letter-spacing: 1.5px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .btn2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                    height: 30px;
+                    padding: 22px;
+                    text-align: center;
+                    letter-spacing: 1.5px;
+                    font-size: 15px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: gray;
+                    color: white;
+                  &:hover{
+                    background-color:rgb(169, 166, 166);
+                    cursor: pointer;
+                  }
+                }
+        }
+    }
+        .text-slider{
+            // margin-top: 20px;
+            font-weight: 700;
+            font-size: 15vh;
+            position: absolute;
+            white-space: nowrap;
+            width: 50%;
+            color: #ffffff1b;
+        }
+        .image-container{
+        position: absolute;
+        top: 80px;
+        right:50px;
+        // border: 2px solid red;
+        // margin: auto;
+        img{
+            height: 60vh;
+            animation: mover 2s linear infinite alternate ;
+
+        }
+        @keyframes mover {
+            0%{
+                transform: translateY(-85px);
+            }
+            100%{
+                transform: translateY(-75px);
+            }
+        }
+    }
+   }
+}

@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html{
+  scroll-snap-type:y mandatory;
+  scroll-behavior: smooth;
+}
+body{
+  // padding-top: 40px;
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+section{
+  height: 100vh;
+  scroll-snap-align: center;
+  // background:linear-gradient(180,#0c0c1d,#101027d8);
+}

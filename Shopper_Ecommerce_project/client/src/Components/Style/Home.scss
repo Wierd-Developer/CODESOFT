@@ -1,0 +1,9 @@
+@import "../../App.scss";
+.products{
+    background: #f1f3f6 ;
+    @include mobile{
+    
+       margin-top: 10vh!important;
+        // border: 2px solid red;
+    }
+}
